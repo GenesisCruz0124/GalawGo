@@ -1,0 +1,112 @@
+.diet-calorie-numbers {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.diet-over {
+  color: var(--color-danger);
+}
+
+.diet-over-text {
+  color: var(--color-danger);
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.diet-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.diet-form input[type='text'] {
+  flex: 1;
+  min-width: 0;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+}
+
+.diet-calorie-input {
+  flex: 0 0 70px;
+  min-width: 0;
+  padding: 12px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+}
+
+.diet-presets-title {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.diet-presets {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.diet-preset {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg);
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.diet-preset-cal {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-primary-dark);
+}
+
+.diet-meal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.diet-meal-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.diet-meal-item:last-child {
+  border-bottom: none;
+}
+
+.diet-meal-name {
+  flex: 1;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.diet-meal-cal {
+  font-size: 13px;
+  color: var(--color-text-muted);
+}
+
+.diet-meal-remove {
+  background: none;
+  border: none;
+  color: var(--color-danger);
+  font-size: 20px;
+  line-height: 1;
+  padding: 0 4px;
+}

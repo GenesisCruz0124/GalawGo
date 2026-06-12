@@ -1,0 +1,60 @@
+.progress-stats-grid {
+  display: flex;
+  gap: 12px;
+  text-align: center;
+}
+
+.progress-stats-grid .home-stat-value {
+  font-size: 24px;
+}
+
+.progress-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.progress-form input {
+  flex: 1;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border);
+}
+
+.progress-weight-summary {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  text-align: center;
+}
+
+.progress-weight-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-weight-value {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.progress-weight-label {
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
+
+.progress-down {
+  color: var(--color-primary-dark);
+}
+
+.progress-up {
+  color: var(--color-accent-dark);
+}
+
+.progress-danger-zone {
+  text-align: center;
+}
+
+.progress-danger-zone h3 {
+  color: var(--color-danger);
+}

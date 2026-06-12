@@ -1,0 +1,44 @@
+.onboarding {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding-bottom: 24px;
+}
+
+.onboarding-hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.onboarding-logo {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.onboarding-hero h1 {
+  color: var(--color-primary-dark);
+  font-size: 26px;
+}
+
+.field-row {
+  display: flex;
+  gap: 12px;
+}
+
+.field-row .field {
+  flex: 1;
+}
+
+.field-hint {
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.onboarding-error {
+  color: var(--color-danger);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
