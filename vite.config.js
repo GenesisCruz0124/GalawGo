@@ -3,12 +3,14 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 // GalawGo is deployed to GitHub Pages at:
-//   https://<your-username>.github.io/galawgo/
-// so every asset path must be prefixed with "/galawgo/".
-// If you rename the GitHub repo, update this "base" value to match
-// (it must be "/your-repo-name/", including the slashes).
+//   https://<your-username>.github.io/GalawGo/
+// so every asset path must be prefixed with "/GalawGo/".
+// GitHub Pages paths are case-sensitive, so this must match the GitHub
+// repo name exactly (including case). If you rename the repo, update
+// this "base" value to match (it must be "/your-repo-name/", including
+// the slashes).
 export default defineConfig({
-  base: '/galawgo/',
+  base: '/GalawGo/',
   plugins: [
     react(),
     VitePWA({
@@ -23,8 +25,8 @@ export default defineConfig({
         background_color: '#10B981',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/galawgo/',
-        scope: '/galawgo/',
+        start_url: '/GalawGo/',
+        scope: '/GalawGo/',
         icons: [
           {
             src: 'icon-192.png',

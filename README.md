@@ -1,6 +1,6 @@
 # GalawGo 🏃‍♂️🥗
 
-**Live app:** https://genesiscruz0124.github.io/galawgo/
+**Live app:** https://genesiscruz0124.github.io/GalawGo/
 
 A beginner-friendly diet & fitness companion built with **React + Vite**.
 Everything runs in the browser - no backend, no sign-up. All your data
@@ -63,7 +63,7 @@ npm install
 npm run dev
 ```
 
-Open the URL Vite prints (usually `http://localhost:5173/galawgo/`).
+Open the URL Vite prints (usually `http://localhost:5173/GalawGo/`).
 
 ## Building for production
 
@@ -92,11 +92,12 @@ site to GitHub Pages every time you push to the `main` branch.
 `vite.config.js` sets:
 
 ```js
-base: '/galawgo/'
+base: '/GalawGo/'
 ```
 
-This must match your repository name (with leading/trailing slashes). If
-you rename the repo, update this value to `/your-repo-name/`.
+GitHub Pages URLs are case-sensitive, so this must match your repository
+name exactly (including case, with leading/trailing slashes). If you
+rename the repo, update this value to `/your-repo-name/`.
 
 ### Git commands to push this project
 
