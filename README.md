@@ -1,5 +1,7 @@
 # GalawGo 🏃‍♂️🥗
 
+**Live app:** https://genesiscruz0124.github.io/galawgo/
+
 A beginner-friendly diet & fitness companion built with **React + Vite**.
 Everything runs in the browser - no backend, no sign-up. All your data
 (profile, workouts, meals, weight) is saved in your browser's
