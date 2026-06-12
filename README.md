@@ -7,6 +7,10 @@ Everything runs in the browser - no backend, no sign-up. All your data
 
 ## Features
 
+- **Installable (PWA)** - GalawGo is a Progressive Web App. On mobile,
+  open it in the browser and choose **Add to Home Screen** (or look for the
+  install prompt) to get an app icon and a full-screen, offline-capable
+  experience.
 - **Onboarding** - enter your name, age, gender, weight, height, and goal.
   GalawGo calculates your **BMI** and a **daily calorie target** using the
   Mifflin-St Jeor formula.
@@ -111,3 +115,21 @@ git push -u origin main
 Then enable Pages as described above (Settings → Pages → Source:
 GitHub Actions). After the first push, check the **Actions** tab to watch
 the deploy workflow run.
+
+## Installing GalawGo as an app (PWA)
+
+GalawGo uses [`vite-plugin-pwa`](https://vite-pwa-org.netlify.app/) to
+generate a web app manifest and service worker, so it can be installed
+like a native app:
+
+- **Android (Chrome)**: open the site, tap the **⋮** menu, then
+  **Add to Home screen** / **Install app**.
+- **iPhone/iPad (Safari)**: open the site, tap the **Share** icon, then
+  **Add to Home Screen**.
+- **Desktop (Chrome/Edge)**: click the install icon in the address bar.
+
+Once installed, GalawGo launches full-screen (no browser UI) and the
+service worker caches the app shell so it keeps working offline. The
+PWA icons live in `public/` (`icon-192.png`, `icon-512.png`,
+`maskable-icon-512.png`, `apple-touch-icon.png`) and are generated from
+the same design as `favicon.svg`.
